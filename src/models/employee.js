@@ -1,8 +1,8 @@
 import User from "./user.js"
 
-export default class Customer extends User{
-    constructor(id, firstName, lastName, city,age,creditCardNumber) {
+export default class Employee extends User{
+    constructor(id, firstName, lastName, city,age, salary) {
         super(id, firstName, lastName, city,age)
-        this.creditCartNumber = creditCartNumber
+        this.salary = salary
     }
 }
